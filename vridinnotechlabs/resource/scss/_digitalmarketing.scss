@@ -1,0 +1,56 @@
+.multi2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/digital.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 1; 
+
+}
+
+.s_btn a{
+    color: #000;
+    padding: 12px 26px;
+    background-color: #FFFFFF;
+    border:1px solid;
+    font-size: 15px;
+    
+}
+a.s_btn-start{
+
+  text-decoration: none;
+
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+
+				
+} //eo sm
+
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+} //eo md
+
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+} //eo lg
+
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+} //eo xl
+
+
+// Extra large devices (XXL, 1600px and up)
+@include media-breakpoint-up(xxl) {
+
+
+} //eo xxl
