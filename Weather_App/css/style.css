@@ -1,0 +1,21 @@
+.weatherAPP{
+	background:linear-gradient(rgba(47,150,163),rgba(48,150,163));
+	height: 100vh;	
+	color: #fff;
+}
+
+.timezone h2{
+	font-size: 26px;
+}
+.weatherIcon h2{
+	font-size: 26px;
+}
+.temparature .temp{
+	font-size: 26px;
+}
+span{
+	font-size: 14px;
+}
+.temperature-description{
+	font-size: 26px;
+}

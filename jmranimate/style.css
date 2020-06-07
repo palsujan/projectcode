@@ -1,0 +1,358 @@
+
+
+.discoverCircle-sec{
+	background-image:url(jurriaan-snikkers-F7I6sexmIS8-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+}
+.discoverCircle-sec .container{
+	z-index: 2;
+	max-width: 1400px !important;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+
+/*.progfill {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}*/
+
+
+.progfill {
+  max-width: 630px;
+  display: none;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.progfill h3{
+	color: #fff;
+}
+.progfill h3 span{
+	color: #ea9f22;
+}
+
+.progfill p{
+	color: #fff;
+	font-size:18px;
+	text-align: justify;
+}
+
+.progfill.active {
+  display: block;
+}
+
+.progfill.active.active2 {
+  display: block;
+}
+
+.discoverCrlbox{
+	height: 340px;
+	max-width:340px;
+	position: relative;
+	margin:auto;
+}
+
+.discoverCrlbox .circle{
+	border:solid 1px #fff;
+	border-radius: 50%;
+	position:absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+}
+
+.discoverCrlbox .circle1{
+	width:100%;
+	height: 100%;
+}
+.discoverCrlbox .circle2{
+	width:80%;
+	height:80%;
+}
+.discoverCrlbox .circle3{
+	width:70%;
+	height:70%;
+}
+
+.circlePointer{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	text-align: center;
+	font-size:16px;
+	border-radius: 50%;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.circlePointer.pointer1{
+	top:-15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.circlePointer.pointer5{
+	bottom:-15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.circlePointer.pointer2{
+	top:50px;
+	right:20px;
+	margin: auto;
+}
+
+.circlePointer.pointer8{
+	top:50px;
+	left: 20px;
+	margin: auto;
+}
+
+.circlePointer.pointer3{
+	top:0;
+	bottom:0;
+	right:-15px;
+	margin: auto 0;
+}
+.circlePointer.pointer7{
+	top:0;
+	bottom: 0;
+	left: -15px;
+	margin: auto 0;
+}
+
+.circlePointer.pointer4{
+	bottom:50px;
+	right:20px;
+	margin: auto;
+}
+
+.circlePointer.pointer6{
+	bottom:50px;
+	left: 20px;
+	margin: auto;
+}
+
+.circlePointer.active{
+	background-color: #ea9f22;
+}
+
+.circlePointer.active:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	border:solid 1px #ea9f22;
+	top:0;
+	bottom:0;
+	left:-10px;
+	margin: auto;
+}
+
+.circlePointer.active:before{
+	content: '';
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 1px #ea9f22;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    margin: auto;
+}
+
+.dcvrTitle{
+	max-width: 280px;
+	height: 85px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	display: none;
+}
+
+.dcvrTitle.active{
+	display: block;
+}
+
+.dcvrTitle h3{
+	color:#ea9f22;
+	text-align: center;
+	font-weight: 300;
+}
+
+.dcvrTitle span{
+	display: block;
+	text-align: center;
+	font-weight:700;
+}
+
+.crltext{
+	position: absolute;
+}
+.pointer1 .crltext{
+	top: -60px;
+  width: 90px;
+  left: -26px;
+} 
+.pointer5 .crltext{
+	bottom: -48px;
+  width: 90px;
+  left: -28px;
+} 
+
+.pointer2 .crltext{
+	top: -60px;
+  width: 75px;
+  left: -20px;
+} 
+.pointer8 .crltext{
+	top: -60px;
+  width: 190px;
+  left: -75px;
+} 
+
+.pointer3 .crltext{
+	bottom: -60px;
+  width: 150px;
+  left: -57px;
+} 
+
+.pointer7 .crltext{
+	bottom: -62px;
+  width: 190px;
+  left: -75px;
+} 
+
+.pointer4 .crltext{
+	bottom: -63px;
+  width: 150px;
+  left: -59px;
+} 
+
+.pointer6 .crltext{
+	bottom: -65px;
+  width: 160px;
+  left: -70px;
+} 
+
+.crltext h4{
+	font-size:14px;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+}	
+
+.crltext h4 span{
+	display: block;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.circlePointer.active .crltext h4{
+	color:#ea9f22;
+}
+
+
+
+@media (min-width: 576px) {
+	.discoverCrlbox{
+		height: 490px;
+		max-width:490px;
+	}
+
+	.circlePointer.pointer2{
+		right:60px;
+	}
+
+	.circlePointer.pointer8{
+		left: 60px;
+	}
+
+	.circlePointer.pointer4{
+		right:60px;
+	}
+
+	.circlePointer.pointer6{
+		left: 60px;
+	}
+}
+
+@media (min-width: 768px) { 
+	.discoverCrlbox{
+		height: 550px;
+		max-width:550px;
+	}
+
+	.circlePointer.pointer2{
+		right:80px;
+	}
+
+	.circlePointer.pointer8{
+		left: 80px;
+	}
+	.circlePointer.pointer4{
+		right:80px;
+	}
+
+	.circlePointer.pointer6{
+		left: 80px;
+	}
+}
+
+@media (min-width: 992px) {
+	.discoverCrlbox{
+		height: 550px;
+		max-width:550px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.discoverCrlbox{
+		height: 570px;
+		max-width:570px;
+	}
+
+	.circlePointer.pointer2{
+		right:87px;
+	}
+
+	.circlePointer.pointer8{
+		left: 87px;
+	}
+
+	.circlePointer.pointer4{
+		right:87px;
+	}
+
+	.circlePointer.pointer6{
+		left: 87px;
+	}
+}
+
+
