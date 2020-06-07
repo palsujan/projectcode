@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 
 	$('.row-videoWrap.owl-carousel').owlCarousel({
     loop:true,
-    autoplay:true@,
+    autoplay:true,
     responsiveClass:true,
     margin:5,
     responsive:{
